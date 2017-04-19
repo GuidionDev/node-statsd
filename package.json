@@ -1,6 +1,6 @@
 { "name" : "@gdn/node-statsd"
 , "description" : "node client for Etsy/StatsD server (with support for TCP connections)"
-, "version" : "0.2.0"
+, "version" : "0.2.1"
 , "author" : "Steve Ivy"
 , "contributors": [ 
     "Russ Bradberry <rbradberry@gmail.com>",
