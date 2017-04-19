@@ -1,13 +1,16 @@
-{ "name" : "node-statsd"
-, "description" : "node client for Etsy'd StatsD server"
-, "version" : "0.1.1"
+{ "name" : "@gdn/node-statsd"
+, "description" : "node client for Etsy/StatsD server (with support for TCP connections)"
+, "version" : "0.2.0"
 , "author" : "Steve Ivy"
-, "contributors": [ "Russ Bradberry <rbradberry@gmail.com>" ]
+, "contributors": [ 
+    "Russ Bradberry <rbradberry@gmail.com>",
+    "Remie Bolte <r.bolte@gmail.com>"
+  ]
 , "repository" :
   { "type" : "git"
-  , "url" : "git://github.com/sivy/node-statsd.git"
+  , "url" : "https://github.com/GuidionDev/node-statsd"
   }
-, "bugs" : { "url" : "https://github.com/sivy/node-statsd/issues" }
+, "bugs" : { "url" : "https://github.com/GuidionDev/node-statsd/issues" }
 , "directories" : { "lib" : "./lib/" }
 , "engines" : { "node" : ">=0.10" }
 , "scripts": {
@@ -19,7 +22,7 @@
 }
 , "licenses" :
   [ { "type" : "MIT"
-    , "url" : "http://github.com/sivy/node-stats/raw/master/LICENSE"
+    , "url" : "https://github.com/GuidionDev/node-statsd/raw/master/LICENSE"
     }
   ]
 }
